@@ -9,6 +9,6 @@ let ans = await inquirer.prompt(
     }]
 );
 const text:string=ans.text.trim().split(" ");
-console.log(`${text}`);
-console.log(`${text.length}`);
+// console.log(`${text}`);
+console.log(`Words in text : ${text.length}`);
 
